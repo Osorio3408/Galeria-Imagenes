@@ -4,9 +4,9 @@ const Footer = () => {
   return (
     <nav className="navbar navbar-dark bg-dark text-cente">
       <div className="container-fluid ">
-        <span className="navbar-brand mb-0 h1 ">
+        <span className="navbar-brand mb-0 h1">
           {" "}
-          Yuliam Andrey Osorio - &copy; - {new Date().getFullYear}{" "}
+          Yuliam Andrey Osorio - &copy; - 2022{" "}
         </span>
       </div>
     </nav>

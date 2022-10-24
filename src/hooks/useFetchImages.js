@@ -1,8 +1,9 @@
 import { useCallback, useEffect, useState } from "react";
 
-export function useFetchImages() {
+export const useFetchImages = () => {
   const [images, setImages] = useState([]);
-  const [input, setInput] = useState(" ");
+  const [input, setInput] = useState("");
+
   const [loading, setLoading] = useState(true);
 
   const peticion = useCallback(async () => {
@@ -43,4 +44,4 @@ export function useFetchImages() {
   };
 
   return [images, loading, handleSubmit];
-}
+};
